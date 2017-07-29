@@ -19,4 +19,9 @@ public class AddTest {
 		assertEquals(100,app.add(50, 50));
 	}
 
+	@Test
+	public void anotherTest()
+	{
+		assertNotEquals(10,app.add(50, 50));
+	}
 }
